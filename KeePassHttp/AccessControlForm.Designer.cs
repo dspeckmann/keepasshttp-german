@@ -44,7 +44,7 @@
             AllowButton.Name = "AllowButton";
             AllowButton.Size = new System.Drawing.Size(75, 23);
             AllowButton.TabIndex = 1;
-            AllowButton.Text = "&Allow";
+            AllowButton.Text = "&Erlauben";
             AllowButton.UseVisualStyleBackColor = true;
             AllowButton.Click += new System.EventHandler(this.AllowButton_Click);
             // 
@@ -55,15 +55,15 @@
             DenyButton.Name = "DenyButton";
             DenyButton.Size = new System.Drawing.Size(75, 23);
             DenyButton.TabIndex = 2;
-            DenyButton.Text = "&Deny";
+            DenyButton.Text = "&Verweigern";
             DenyButton.UseVisualStyleBackColor = true;
             DenyButton.Click += new System.EventHandler(this.DenyButton_Click);
             // 
             // EntriesBox
             // 
-            this.EntriesBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.EntriesBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.EntriesBox.FormattingEnabled = true;
             this.EntriesBox.Location = new System.Drawing.Point(12, 12);
             this.EntriesBox.Name = "EntriesBox";
@@ -76,21 +76,21 @@
             this.RememberCheck.AutoSize = true;
             this.RememberCheck.Location = new System.Drawing.Point(12, 211);
             this.RememberCheck.Name = "RememberCheck";
-            this.RememberCheck.Size = new System.Drawing.Size(138, 17);
+            this.RememberCheck.Size = new System.Drawing.Size(159, 17);
             this.RememberCheck.TabIndex = 3;
-            this.RememberCheck.Text = "Remember this decision";
+            this.RememberCheck.Text = "Diese Entscheidung merken";
             this.RememberCheck.UseVisualStyleBackColor = true;
             // 
             // ConfirmTextLabel
             // 
-            this.ConfirmTextLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.ConfirmTextLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ConfirmTextLabel.Location = new System.Drawing.Point(9, 136);
             this.ConfirmTextLabel.Name = "ConfirmTextLabel";
             this.ConfirmTextLabel.Size = new System.Drawing.Size(323, 65);
             this.ConfirmTextLabel.TabIndex = 4;
-            this.ConfirmTextLabel.Text = "www.somewhere.com has requested access to passwords for the above item(s). Please" +
-                " select whether you want to allow access.";
+            this.ConfirmTextLabel.Text = "www.somewhere.com Zugang zu den oben genannten Einträgen gefordert. Soll dieser g" +
+    "ewährt werden?";
             // 
             // AccessControlForm
             // 
@@ -106,7 +106,7 @@
             this.MinimizeBox = false;
             this.Name = "AccessControlForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "KeePassHttp: Confirm Access";
+            this.Text = "KeePassHttp: Zugriff bestätigen";
             this.ResumeLayout(false);
             this.PerformLayout();
 

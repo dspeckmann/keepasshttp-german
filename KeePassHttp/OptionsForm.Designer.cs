@@ -72,7 +72,7 @@
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(88, 28);
             this.cancelButton.TabIndex = 2;
-            this.cancelButton.Text = "&Cancel";
+            this.cancelButton.Text = "&Abbrechen";
             this.cancelButton.UseVisualStyleBackColor = true;
             // 
             // okButton
@@ -84,15 +84,15 @@
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(88, 28);
             this.okButton.TabIndex = 1;
-            this.okButton.Text = "&Save";
+            this.okButton.Text = "&Speichern";
             this.okButton.UseVisualStyleBackColor = true;
             this.okButton.Click += new System.EventHandler(this.okButton_Click);
             // 
             // tabControl1
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                  | System.Windows.Forms.AnchorStyles.Left)
-                  | System.Windows.Forms.AnchorStyles.Right)));
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Location = new System.Drawing.Point(1, 3);
@@ -114,7 +114,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(402, 434);
+            this.tabPage1.Size = new System.Drawing.Size(402, 452);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "General";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -122,42 +122,42 @@
             // SortByUsernameRadioButton
             // 
             this.SortByUsernameRadioButton.AutoSize = true;
-            this.SortByUsernameRadioButton.Location = new System.Drawing.Point(7, 124);
+            this.SortByUsernameRadioButton.Location = new System.Drawing.Point(7, 111);
             this.SortByUsernameRadioButton.Name = "SortByUsernameRadioButton";
-            this.SortByUsernameRadioButton.Size = new System.Drawing.Size(171, 17);
+            this.SortByUsernameRadioButton.Size = new System.Drawing.Size(241, 17);
             this.SortByUsernameRadioButton.TabIndex = 19;
             this.SortByUsernameRadioButton.TabStop = true;
-            this.SortByUsernameRadioButton.Text = "Sort found entries by &username";
+            this.SortByUsernameRadioButton.Text = "Passende Einträge nach Usernamen sortieren";
             this.SortByUsernameRadioButton.UseVisualStyleBackColor = true;
             // 
             // SortByTitleRadioButton
             // 
             this.SortByTitleRadioButton.AutoSize = true;
-            this.SortByTitleRadioButton.Location = new System.Drawing.Point(7, 147);
+            this.SortByTitleRadioButton.Location = new System.Drawing.Point(7, 134);
             this.SortByTitleRadioButton.Name = "SortByTitleRadioButton";
-            this.SortByTitleRadioButton.Size = new System.Drawing.Size(141, 17);
+            this.SortByTitleRadioButton.Size = new System.Drawing.Size(207, 17);
             this.SortByTitleRadioButton.TabIndex = 18;
             this.SortByTitleRadioButton.TabStop = true;
-            this.SortByTitleRadioButton.Text = "Sort found entries by &title";
+            this.SortByTitleRadioButton.Text = "Passende Einträge nach Titel sortieren";
             this.SortByTitleRadioButton.UseVisualStyleBackColor = true;
             // 
             // matchSchemesCheckbox
             // 
             this.matchSchemesCheckbox.AutoSize = true;
-            this.matchSchemesCheckbox.Location = new System.Drawing.Point(7, 88);
+            this.matchSchemesCheckbox.Location = new System.Drawing.Point(7, 75);
             this.matchSchemesCheckbox.Name = "matchSchemesCheckbox";
             this.matchSchemesCheckbox.Size = new System.Drawing.Size(375, 30);
             this.matchSchemesCheckbox.TabIndex = 17;
             this.matchSchemesCheckbox.Text = "&Match URL schemes\r\nonly entries with the same scheme (http://, https://, ftp://," +
-          " ...) are returned";
+    " ...) are returned";
             this.matchSchemesCheckbox.UseVisualStyleBackColor = true;
             // 
             // removePermissionsButton
             // 
-            this.removePermissionsButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                  | System.Windows.Forms.AnchorStyles.Right)));
+            this.removePermissionsButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.removePermissionsButton.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.removePermissionsButton.Location = new System.Drawing.Point(14, 216);
+            this.removePermissionsButton.Location = new System.Drawing.Point(14, 203);
             this.removePermissionsButton.Name = "removePermissionsButton";
             this.removePermissionsButton.Size = new System.Drawing.Size(372, 28);
             this.removePermissionsButton.TabIndex = 16;
@@ -168,7 +168,7 @@
             // unlockDatabaseCheckbox
             // 
             this.unlockDatabaseCheckbox.AutoSize = true;
-            this.unlockDatabaseCheckbox.Location = new System.Drawing.Point(7, 65);
+            this.unlockDatabaseCheckbox.Location = new System.Drawing.Point(7, 52);
             this.unlockDatabaseCheckbox.Name = "unlockDatabaseCheckbox";
             this.unlockDatabaseCheckbox.Size = new System.Drawing.Size(256, 17);
             this.unlockDatabaseCheckbox.TabIndex = 15;
@@ -177,9 +177,9 @@
             // 
             // removeButton
             // 
-            this.removeButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                  | System.Windows.Forms.AnchorStyles.Right)));
-            this.removeButton.Location = new System.Drawing.Point(14, 182);
+            this.removeButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.removeButton.Location = new System.Drawing.Point(14, 169);
             this.removeButton.Name = "removeButton";
             this.removeButton.Size = new System.Drawing.Size(372, 28);
             this.removeButton.TabIndex = 11;
@@ -192,10 +192,9 @@
             this.credMatchingCheckbox.AutoSize = true;
             this.credMatchingCheckbox.Location = new System.Drawing.Point(7, 29);
             this.credMatchingCheckbox.Name = "credMatchingCheckbox";
-            this.credMatchingCheckbox.Size = new System.Drawing.Size(238, 30);
+            this.credMatchingCheckbox.Size = new System.Drawing.Size(400, 17);
             this.credMatchingCheckbox.TabIndex = 9;
-            this.credMatchingCheckbox.Text = "&Return only best matching entries for an URL\r\ninstead of all entries for the who" +
-          "le domain";
+            this.credMatchingCheckbox.Text = "Nur den besten Eintrag für eine URL liefern, anstatt alle zur Domain passenden.";
             this.credMatchingCheckbox.UseVisualStyleBackColor = true;
             // 
             // credNotifyCheckbox
@@ -203,9 +202,9 @@
             this.credNotifyCheckbox.AutoSize = true;
             this.credNotifyCheckbox.Location = new System.Drawing.Point(7, 6);
             this.credNotifyCheckbox.Name = "credNotifyCheckbox";
-            this.credNotifyCheckbox.Size = new System.Drawing.Size(267, 17);
+            this.credNotifyCheckbox.Size = new System.Drawing.Size(357, 17);
             this.credNotifyCheckbox.TabIndex = 8;
-            this.credNotifyCheckbox.Text = "Sh&ow a notification when credentials are requested";
+            this.credNotifyCheckbox.Text = "Benachrichtigung anzeigen, wenn Zugangsdaten angefordert werden.";
             this.credNotifyCheckbox.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -251,7 +250,7 @@
             this.label10.Size = new System.Drawing.Size(375, 26);
             this.label10.TabIndex = 23;
             this.label10.Text = "Only change the host to bind to if you want to give access to other computers.\r\nU" +
-          "se \'*\' to bind it to all your IP addresses (potentially dangerous!)\r\n";
+    "se \'*\' to bind it to all your IP addresses (potentially dangerous!)\r\n";
             // 
             // label8
             // 
@@ -261,8 +260,8 @@
             this.label8.Size = new System.Drawing.Size(244, 65);
             this.label8.TabIndex = 26;
             this.label8.Text = "Default: localhost\r\nYou might need to run KeePass as administrator \r\nwhen you cha" +
-          "nge this.\r\nAlso don\'t forget to open the firewall if you want to \r\nbe able to us" +
-          "e it from a different computer.";
+    "nge this.\r\nAlso don\'t forget to open the firewall if you want to \r\nbe able to us" +
+    "e it from a different computer.";
             // 
             // label9
             // 
@@ -281,7 +280,7 @@
             this.label7.Size = new System.Drawing.Size(241, 39);
             this.label7.TabIndex = 30;
             this.label7.Text = "Default: 19455\r\nDon\'t forget to change the port number also in\r\nthe plugins like " +
-          "chromeIPass, PassIFox, kypass,...";
+    "chromeIPass, PassIFox, kypass,...";
             // 
             // portNumber
             // 
@@ -418,7 +417,7 @@
             this.MinimizeBox = false;
             this.Name = "OptionsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "KeePassHttp Options";
+            this.Text = "KeePassHttp Einstellungen";
             this.Load += new System.EventHandler(this.OptionsForm_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

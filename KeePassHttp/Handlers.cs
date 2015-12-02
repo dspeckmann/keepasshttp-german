@@ -382,7 +382,7 @@ namespace KeePassHttp {
                     var n = String.Join("\n    ", names.ToArray<string>());
 
                     if (configOpt.ReceiveCredentialNotification)
-                        ShowNotification(String.Format("{0}: {1} is receiving credentials for:\n    {2}", r.Id, host, n));
+                        ShowNotification(String.Format("{0}: {1} empfängt Zugangsdaten für:\n    {2}", r.Id, host, n));
                 }
 
                 resp.Success = true;
@@ -558,8 +558,8 @@ namespace KeePassHttp {
                                 {
                                     keyExistsResult = MessageBox.Show(
                                         win,
-                                        "A shared encryption-key with the name \"" + f.KeyId + "\" already exists.\nDo you want to overwrite it?",
-                                        "Overwrite existing key?",
+                                        "Ein Schlüssel mit dem Namen \"" + f.KeyId + "\" existiert bereits.\nSoll er überschrieben werden?",
+                                        "Existierenden Schlüssel überschreiben?",
                                         MessageBoxButtons.YesNo,
                                         MessageBoxIcon.Warning,
                                         MessageBoxDefaultButton.Button1
