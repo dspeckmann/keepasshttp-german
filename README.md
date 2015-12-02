@@ -1,3 +1,5 @@
+This is a German translation of the [original KeePassHttp](https://github.com/pfn/keepasshttp/) by [pfn](https://github.com/pfn).
+
 # KeePassHttp
 
 is a plugin for KeePass 2.x and provides a secure means of exposing KeePass entries via HTTP for clients to
